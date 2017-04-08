@@ -1,0 +1,22 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>测试android程序</title>
+</head>
+<body>
+测试android和js交互
+<br/>
+<button onClick="showToast()">显示吐司</button>
+<br/>
+<button onClick="showProgressDialog()">显示loading</button>
+
+<script type="text/javascript">
+    function showToast(){
+        Android.showToast("显示吐司");
+    }
+    function showProgressDialog(){
+        Android.showProgressDialog("显示进度条");
+    }
+</script>
+</body>
+</html>
