@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 import com.exe.study.R;
 
 /**
- * @Function
+ * @Function 自定义类
  * @Author Xian
  * @Data 2017/4/10 9:12
  */

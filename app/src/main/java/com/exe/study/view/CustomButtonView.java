@@ -8,6 +8,7 @@ import android.widget.Button;
 import com.exe.study.R;
 
 /**
+ * 自定义属性类
  * Created by Administrator on 2017/4/8.
  */
 
