@@ -11,7 +11,6 @@ import android.text.Spanned;
 import android.util.Log;
 import android.widget.TextView;
 
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -47,7 +46,7 @@ public class GetHtmlMsgActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_html);
 
         tv = (TextView) findViewById(R.id.tv);
 
