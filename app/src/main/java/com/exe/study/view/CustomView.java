@@ -2,9 +2,7 @@ package com.exe.study.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.LinearLayout;
 
 import com.exe.study.R;
@@ -38,7 +36,7 @@ public class CustomView extends LinearLayout {
     private void initView() {
 //        LinearLayout.inflate(getContext(), R.layout.activity_main, this);
 //        LayoutInflater.from(getContext()).inflate(R.layout.activity_main, this);
-        inflate(getContext(), R.layout.activity_main, this);
+        inflate(getContext(), R.layout.activity_main_view, this);
     }
 
     @Override

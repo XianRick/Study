@@ -1,4 +1,4 @@
-package com.exe.study.activity;
+package com.exe.study.serviceactivity;
 
 import android.content.ComponentName;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.exe.study.activity;
+package com.exe.study.serviceactivity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
