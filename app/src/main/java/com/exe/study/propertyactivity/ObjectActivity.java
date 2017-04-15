@@ -49,7 +49,8 @@ public class ObjectActivity extends Activity {
                 PropertyValuesHolder alpha = PropertyValuesHolder.ofFloat("alpha", 1f, 0.3f);
                 PropertyValuesHolder rotationX = PropertyValuesHolder.ofFloat("rotationX", 0f, 30f);
                 PropertyValuesHolder rotationY = PropertyValuesHolder.ofFloat("rotationY", 0f, 30f);
-                ObjectAnimator.ofPropertyValuesHolder(iv, alpha, rotationX, rotationY);
+                ObjectAnimator.ofPropertyValuesHolder(iv, alpha, rotationX, rotationY)
+                        .setDuration(2000).start();
             }
         });
 

@@ -35,14 +35,14 @@
 
         </activity>
         <activity android:name=".propertyactivity.ObjectActivity">
+
+        </activity>
+        <activity android:name=".propertyactivity.ValueActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".propertyactivity.ValueActivity">
-
         </activity>
         <service android:name=".service.MyService">
             <intent-filter>

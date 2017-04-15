@@ -55,7 +55,7 @@ public class ValueActivity extends Activity implements View.OnClickListener {
                     @Override
                     public void onAnimationUpdate(ValueAnimator animation) {
                         float height = (float) animation.getAnimatedValue();
-                        iv.setRotationY(height);
+                        iv.setTranslationY(height);
                     }
                 });
                 break;
